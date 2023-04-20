@@ -66,7 +66,7 @@ html,body{
     font-size: 1.4rem;
 }
 .btn_edit:hover{
-    background-color: blue;
+    background-color: blue ;
     box-shadow: 5px 7px 20px ;
     cursor: pointer;
 }
@@ -80,6 +80,7 @@ html,body{
     font-size: 1.7rem;
     font-weight: 600;
     border-radius: 15px;
+    text-align: center;
 }
 .parr{
     margin-top:-30px;
@@ -87,9 +88,13 @@ html,body{
 .container_info{
     height: 100px;
     width: 200px;
-    border: solid 2px;
+    border: solid 2px black;
     margin-top:-150px;
     border-radius: 15px;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    color: aliceblue;
 }
 .imagen{
     height: 150%;
